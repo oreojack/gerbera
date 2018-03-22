@@ -13,3 +13,4 @@ mediatomb
 **/.idea/
 **/coverage/
 **/_build
+nbproject/

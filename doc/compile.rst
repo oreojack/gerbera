@@ -47,7 +47,8 @@ Build On Ubuntu 16.04
   libmagic-dev libexif-dev libcurl4-openssl-dev
   # If building with LibAV/FFmpeg (-DWITH_AVCODEC=1)
   apt-get install libavutil-dev libavcodec-dev libavformat-dev libavdevice-dev \
-  libavfilter-dev libavresample-dev libswscale-dev libswresample-dev libpostproc-dev
+  libavfilter-dev libavresample-dev libswscale-dev libswresample-dev libpostproc-dev \
+  libffmpegthumbnailer-dev
 
 
 The following packages are too old in 16.04 and must be installed from source:

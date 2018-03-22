@@ -85,7 +85,8 @@ apt-get install uuid-dev libexpat1-dev libsqlite3-dev libmysqlclient-dev \
 libmagic-dev libexif-dev libcurl4-openssl-dev
 # If building with LibAV/FFmpeg (-DWITH_AVCODEC=1)
 apt-get install libavutil-dev libavcodec-dev libavformat-dev libavdevice-dev \
-libavfilter-dev libavresample-dev libswscale-dev libswresample-dev libpostproc-dev
+libavfilter-dev libavresample-dev libswscale-dev libswresample-dev libpostproc-dev \
+libffmpegthumbnailer-dev
 ```
 
 The following packages are too old in 16.04 and must be installed from source:
@@ -96,7 +97,7 @@ The following packages are too old in 16.04 and must be installed from source:
 
 #### On FreeBSD
 
-_The following has bee tested on FreeBSD 11.0 using a clean jail environment._ 
+_The following has been tested on FreeBSD 11.0 using a clean jail environment._ 
 
 1. Install the required prerequisites as root using either ports or packages. This can be done via Package manager or ports. (pkg manager is used here.)  Include mysql if you wish to use that instead of SQLite3.
 ```
